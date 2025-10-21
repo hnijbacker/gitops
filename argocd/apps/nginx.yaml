@@ -12,7 +12,7 @@ spec:
     targetRevision: 22.1.1
     helm:
       valueFiles:
-        - values/nginx-values.yaml
+        - ./values/nginx-values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx
