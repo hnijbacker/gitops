@@ -12,10 +12,9 @@ spec:
       targetRevision: 0.15.2
       helm:
         valueFiles:
-          - $values/values/metallb-values.yaml
+          - $values/argocd/values/metallb-values.yaml
     - repoURL: https://github.com/hnijbacker/gitops
       targetRevision: HEAD
-      path: argocd
       ref: values
   destination:
     server: https://kubernetes.default.svc
