@@ -1,3 +1,4 @@
+```mermaid
 graph TD
 
   %% Git Repositories
@@ -47,3 +48,4 @@ graph TD
   class G1,G2,G3,G4 git
   class A0,A1,A2,A3,A4 argocd
   class K1,K2,K3 k8s
+```
