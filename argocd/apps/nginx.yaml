@@ -15,7 +15,7 @@ spec:
             - $values/values/nginx-values.yaml
       - repoURL: https://github.com/hnijbacker/gitops
         targetRevision: HEAD
-        path: apps
+        path: argocd
         ref: values
   destination:
     server: https://kubernetes.default.svc
