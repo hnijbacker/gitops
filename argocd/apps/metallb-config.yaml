@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/hnijbacker/gitops
     targetRevision: main
-    path: metallb-config
+    path: argocd/metallb-config
   destination:
     server: https://kubernetes.default.svc
     namespace: metallb-system
